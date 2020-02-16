@@ -1,0 +1,115 @@
+
+body{
+	font-family: 'Roboto Slab', serif;
+	color: #575F7D;
+	font-size: 16px;
+	font-weight: lighter;
+	background-color: #E5DFDF;
+}
+head{
+	font-family: Arial, sans-serif
+}
+
+h1 {
+	color: #357376;
+	text-align: center;
+	font-family: 'Galada', cursive;
+}
+h2, h3, h4, h5 {
+	color: #6BA8A9;
+	font-size: 24px;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+
+
+/* lien */
+
+a {
+	text-decoration: none;
+	color: #8CC6D7; 
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: #5F8CA3;
+}
+p {
+	text-align: center;
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+.TROIS {
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	margin: 50px;
+	border-radius: 20px;
+	background-color: white;
+}
+.container {
+	margin: 10px auto;
+	width: 700px;
+}
+/* AJUSTEMENT ÉCRAN */
+@media (max-width: 760px) {
+
+	.container{
+		width: 600px
+	}
+}
+@media (max-width: 600px) {
+
+	.container{
+		width: 400px
+	}
+}
+.SIX {
+	margin: 50px;
+}
+.btn-blue {
+	background-color: #1D4D4F;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 9px;
+	margin-left: 250px;
+}
+/* LIEN LOGO */
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px; 
+}
+.list-inline i {
+	font-size: 60px						
+}
+.facebook {
+	color: #3b5998
+}
+.facebook:hover {
+	color: #2f477a;
+}
+.instagram {
+	color: #E1306C;
+}
+.instagram:hover {
+	color: #C13584;
+}
+
+
+
+
+
+
+
+
